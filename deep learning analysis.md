@@ -6,7 +6,7 @@ In this challenge machine learning is used to analyze financial data to determin
 
 ## Results
 
-###Data Preprocessing
+### Data Preprocessing
   - **What variable(s) are the target(s) for your model?**
     - For the target, I used the `Is_Successful` column as my `y` variable.
   - **What variable(s) are the features for your model?**
@@ -14,7 +14,7 @@ In this challenge machine learning is used to analyze financial data to determin
   - **What variable(s) should be removed from the input data because they are neither targets nor features?**
     - As part of preprocessing, the `EIN` and `NAME` columns were dropped from the DataFrame. During optimization, I also removed the `STATUS` column to improve accuracy.
 
-###Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
   - **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
     - The model has 3 layers:
       - The first layer has 6 neurons.
@@ -34,7 +34,7 @@ In this challenge machine learning is used to analyze financial data to determin
 ## Summary
 The deep learning model implemented achieved a maximum accuracy of around 73%. Despite various attempts to enhance performance, including adjusting the number of neurons and adding multiple hidden layers, the improvements in accuracy were modest. The model showed some sensitivity to these changes, indicating that further optimization of the network architecture alone might have limited potential for significant gains in accuracy.
 
-###Recommendation:
+### Recommendation:
 - To address this classification problem more effectively, I recommend exploring ensemble learning methods such as Random Forest or Gradient Boosting. Ensemble models have the advantage of combining the predictions from multiple base models, which often leads to better generalization and improved performance on classification tasks.
 
 - Additionally, implementing techniques like cross-validation can help in selecting the best hyperparameters, thereby enhancing model robustness. Exploring feature engineering to create new, more informative features might also provide a boost in accuracy by offering the model more relevant input data to work with.
