@@ -21,14 +21,19 @@ In this challenge machine learning is used to analyze financial data to determin
       - The second layer has 3 neurons.
       - The third layer has 3 neurons.
       - The output layer has 1 neuron.
+        
   - **Were you able to achieve the target model performance?**
     - No, the closest I was able to get was 73% accuracy.
+      
   - **What steps did you take in your attempts to increase model performance?**
     - I initially started with fewer neurons, achieving around 71-72% accuracy.
-    - I added more neurons to the first and second layers but did not see an increase in accuracy.
-    - I added a third hidden layer with the same number of neurons as the second layer, which improved accuracy.
-    - I attempted to increase accuracy by adding a fourth hidden layer, but the accuracy actually decreased.
-    - I also attempted to decrease the number of neurons in the first layer to help with accuracy, but there was little change.
+![image](https://github.com/user-attachments/assets/dbc6c3c6-515f-4fcb-8d7a-8eb7643bf5bc)
+![image](https://github.com/user-attachments/assets/2a7a9b93-58d1-462a-a498-9acd5179c74a)
+
+    - I added more neurons to the first and second layers, but this did not result in any increase in accuracy. However, adding a third hidden layer with the same number of neurons as the second layer led to an improvement in accuracy. When I attempted to increase accuracy further by adding a fourth hidden layer, the accuracy actually decreased. I also tried decreasing the number of neurons in the first layer to help with accuracy, but there was little change.
+
+![image](https://github.com/user-attachments/assets/fbe53115-0ef0-4c08-9f08-b4c01ae12fb0)
+![image](https://github.com/user-attachments/assets/94becd16-18a7-47f6-83d1-d3bde8a492de)
 
       
 ## Summary
