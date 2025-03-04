@@ -1,13 +1,13 @@
 # deep-learning-challenge
 
-##Module 21
+## Module 21
 
-***Files
+Files
 -KR_Starter_Code
 -KR_AlphabetSoupCharity_Optimization
 -Deep learning analysis (report)
 
-##Resources Used: 
+## Resources Used: 
 -Module 21, 
 -01-Ins_OverTheMoon, 
 -02-Stu_BackToTheMoon, 
